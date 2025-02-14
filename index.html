@@ -1,0 +1,108 @@
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="css/styles.css" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap"
+      rel="stylesheet"
+    />
+    <title>Practicing HTML and CSS</title>
+    <style>
+      img {
+        width: 40%;
+        height: auto;
+      }
+    </style>
+  </head>
+
+  <body>
+    <h1>Practicing HTML and CSS</h1>
+
+    <p id="para1">
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam vehicula,
+      justo ac pharetra auctor, nulla dolor bibendum libero, nec tincidunt
+      ligula nulla id felis. Sed vitae odio id eros tincidunt mollis at et est.
+      Cras ut odio nisi. Duis elementum semper risus, in cursus nunc facilisis
+      a. Aenean ac ligula justo. Vestibulum viverra nunc eu odio hendrerit, non
+      lacinia ipsum hendrerit. Proin at urna auctor, fringilla ex id, interdum
+      orci. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices
+      posuere cubilia curae; Nulla vehicula turpis eget dolor posuere, et
+      bibendum nisi gravida.
+    </p>
+
+    <p id="para2">
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla facilisi.
+      Donec vel metus lorem. Curabitur nec ligula in quam posuere tincidunt.
+    </p>
+
+    <p id="para3">
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut placerat
+      sapien non eros interdum, sed varius justo faucibus. Cras venenatis velit
+      nec odio bibendum, ut convallis erat dignissim. Suspendisse potenti. Nunc
+      ac dui arcu. Nam at lacus auctor, imperdiet nisi ac, congue ipsum. Nulla
+      facilisi. Vestibulum euismod, velit at elementum rhoncus, libero ex
+      fermentum dui, nec scelerisque eros urna eu magna. Donec malesuada felis
+      nec arcu pharetra, in maximus odio mollis. Maecenas accumsan turpis ac
+      risus viverra sagittis. Nam suscipit arcu vel eros ullamcorper efficitur.
+    </p>
+
+    <div>
+      <h3>List of Favorite Websites</h3>
+      <ol>
+        <li><a href="https://www.google.com" target="_blank">google</a></li>
+        <li><a href="https://www.github.com" target="_blank">github</a></li>
+        <li><a href="https://www.youtube.com" target="_blank">youtube</a></li>
+      </ol>
+
+      <h3>List of Favorite Songs</h3>
+      <ul>
+        <li class="Metal">Lost in a Wave - LANDMVRKS</li>
+        <li class="Metal">Rainbows - While She Sleeps</li>
+        <li class="Punk">A Fool on the the Devil's Reins - Future Palace</li>
+        <li class="Punk">Situations - Escape The Fate</li>
+        <li class="Metal">115 - Tryarch</li>
+      </ul>
+    </div>
+
+    <div>
+      <h3>A picture of a beautiful sunset</h3>
+      <img src="images/sunset.jpg" alt="A picture of Beautiful sunset" />
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam
+        vehicula, justo ac pharetra auctor, nulla dolor bibendum libero, nec
+        tincidunt ligula nulla id felis. Sed vitae odio id eros tincidunt mollis
+        at et est. Cras ut odio nisi. Duis elementum semper risus, in cursus
+        nunc facilisis a. Aenean ac ligula justo. Vestibulum viverra nunc eu
+        odio hendrerit, non lacinia ipsum hendrerit. Proin at urna auctor,
+        fringilla ex id, interdum orci. Vestibulum ante ipsum primis in faucibus
+        orci luctus et ultrices posuere cubilia curae; Nulla vehicula turpis
+        eget dolor posuere, et bibendum nisi gravida. Suspendisse potenti. Nunc
+        ac dui arcu. Nam at lacus auctor, imperdiet nisi ac, congue ipsum. Nulla
+        facilisi. Vestibulum euismod, velit at elementum rhoncus, libero ex
+        fermentum dui, nec scelerisque eros urna eu magna.
+      </p>
+    </div>
+
+    <div>
+      <form>
+        <label for="fname">First Name:</label>
+        <input type="text" id="fname" name="fname" />
+        <br />
+        <label for="lname">Last Name:</label>
+        <input type="text" id="lname" name="lname" />
+        <br />
+        <hr />
+        <h3>In which state is your hometown located?</h3>
+        <input type="radio" id="nd" name="state" value="North Dakota" />
+        <label for="nd">North Dakota</label>
+        <input type="radio" id="mn" name="state" value="Minnesota" />
+        <label for="mn">Minnesota</label>
+        <input type="radio" id="sd" name="state" value="South Dakota" />
+        <label for="sd">South Dakota</label>
+        <br />
+        <input type="submit" value="Submit" />
+      </form>
+    </div>
+  </body>
+</html>
