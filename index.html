@@ -1,108 +1,129 @@
+<!DOCTYPE html>
 <html lang="en">
   <head>
-    <link rel="stylesheet" href="css/styles.css" />
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Bootstrap demo</title>
     <link
-      href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
       rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
     />
-    <title>Practicing HTML and CSS</title>
-    <style>
-      img {
-        width: 40%;
-        height: auto;
-      }
-    </style>
   </head>
 
   <body>
-    <h1>Practicing HTML and CSS</h1>
-
-    <p id="para1">
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam vehicula,
-      justo ac pharetra auctor, nulla dolor bibendum libero, nec tincidunt
-      ligula nulla id felis. Sed vitae odio id eros tincidunt mollis at et est.
-      Cras ut odio nisi. Duis elementum semper risus, in cursus nunc facilisis
-      a. Aenean ac ligula justo. Vestibulum viverra nunc eu odio hendrerit, non
-      lacinia ipsum hendrerit. Proin at urna auctor, fringilla ex id, interdum
-      orci. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices
-      posuere cubilia curae; Nulla vehicula turpis eget dolor posuere, et
-      bibendum nisi gravida.
-    </p>
-
-    <p id="para2">
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla facilisi.
-      Donec vel metus lorem. Curabitur nec ligula in quam posuere tincidunt.
-    </p>
-
-    <p id="para3">
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut placerat
-      sapien non eros interdum, sed varius justo faucibus. Cras venenatis velit
-      nec odio bibendum, ut convallis erat dignissim. Suspendisse potenti. Nunc
-      ac dui arcu. Nam at lacus auctor, imperdiet nisi ac, congue ipsum. Nulla
-      facilisi. Vestibulum euismod, velit at elementum rhoncus, libero ex
-      fermentum dui, nec scelerisque eros urna eu magna. Donec malesuada felis
-      nec arcu pharetra, in maximus odio mollis. Maecenas accumsan turpis ac
-      risus viverra sagittis. Nam suscipit arcu vel eros ullamcorper efficitur.
-    </p>
-
-    <div>
-      <h3>List of Favorite Websites</h3>
-      <ol>
-        <li><a href="https://www.google.com" target="_blank">google</a></li>
-        <li><a href="https://www.github.com" target="_blank">github</a></li>
-        <li><a href="https://www.youtube.com" target="_blank">youtube</a></li>
-      </ol>
-
-      <h3>List of Favorite Songs</h3>
-      <ul>
-        <li class="Metal">Lost in a Wave - LANDMVRKS</li>
-        <li class="Metal">Rainbows - While She Sleeps</li>
-        <li class="Punk">A Fool on the the Devil's Reins - Future Palace</li>
-        <li class="Punk">Situations - Escape The Fate</li>
-        <li class="Metal">115 - Tryarch</li>
-      </ul>
+    <div class="bg-light p-5 text-center">
+      <h1>Welcome to My Website</h1>
+      <p>Explore Bootstrap components in action</p>
+      <a href="#contact" class="btn btn-primary">Get Started</a>
     </div>
 
-    <div>
-      <h3>A picture of a beautiful sunset</h3>
-      <img src="images/sunset.jpg" alt="A picture of Beautiful sunset" />
-      <p>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam
-        vehicula, justo ac pharetra auctor, nulla dolor bibendum libero, nec
-        tincidunt ligula nulla id felis. Sed vitae odio id eros tincidunt mollis
-        at et est. Cras ut odio nisi. Duis elementum semper risus, in cursus
-        nunc facilisis a. Aenean ac ligula justo. Vestibulum viverra nunc eu
-        odio hendrerit, non lacinia ipsum hendrerit. Proin at urna auctor,
-        fringilla ex id, interdum orci. Vestibulum ante ipsum primis in faucibus
-        orci luctus et ultrices posuere cubilia curae; Nulla vehicula turpis
-        eget dolor posuere, et bibendum nisi gravida. Suspendisse potenti. Nunc
-        ac dui arcu. Nam at lacus auctor, imperdiet nisi ac, congue ipsum. Nulla
-        facilisi. Vestibulum euismod, velit at elementum rhoncus, libero ex
-        fermentum dui, nec scelerisque eros urna eu magna.
-      </p>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <div class="container">
+        <a class="navbar-brand" href="#">My Website</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bstarget="#navbarNav"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="#about">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#service">Service</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contact">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <h1>Hello, world!</h1>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+
+    <div class="container my-5">
+      <div class="row">
+        <div class="col-md-6">
+          <img src=" images/about us.jpg" class="img-fluid" alt="About Image" />
+        </div>
+        <div class="col-md-6">
+          <h2>About Us</h2>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec
+            odio.
+          </p>
+        </div>
+      </div>
+    </div>
+    <div class="container my-5">
+      <h2 class="text-center">Our Services</h2>
+      <div class="row">
+        <div class="col-md-4">
+          <div class="card">
+            <img src="/images/water.jpg" class="card-img-top" alt="Service" />
+            <div class="card-body">
+              <h5 class="card-title">Service 1</h5>
+              <p class="card-text">Short description of service.</p>
+              <a href="#" class="btn btn-primary">Learn More</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card">
+            <img src="/images/water.jpg" class="card-img-top" alt="Service" />
+            <div class="card-body">
+              <h5 class="card-title">Service 2</h5>
+              <p class="card-text">Short description of service.</p>
+              <a href="#" class="btn btn-primary">Learn More</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card">
+            <img src="/images/water.jpg" class="card-img-top" alt="Service" />
+            <div class="card-body">
+              <h5 class="card-title">Service 3</h5>
+              <p class="card-text">Short description of service.</p>
+              <a href="#" class="btn btn-primary">Learn More</a>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
 
-    <div>
+    <div class="container my-5">
+      <h2 class="text-center">Contact Us</h2>
       <form>
-        <label for="fname">First Name:</label>
-        <input type="text" id="fname" name="fname" />
-        <br />
-        <label for="lname">Last Name:</label>
-        <input type="text" id="lname" name="lname" />
-        <br />
-        <hr />
-        <h3>In which state is your hometown located?</h3>
-        <input type="radio" id="nd" name="state" value="North Dakota" />
-        <label for="nd">North Dakota</label>
-        <input type="radio" id="mn" name="state" value="Minnesota" />
-        <label for="mn">Minnesota</label>
-        <input type="radio" id="sd" name="state" value="South Dakota" />
-        <label for="sd">South Dakota</label>
-        <br />
-        <input type="submit" value="Submit" />
+        <div class="mb-3">
+          <label class="form-label">Name</label>
+          <input type="text" class="form-control" />
+        </div>
+        <div class="mb-3">
+          <label class="form-label">Email</label>
+          <input type="email" class="form-control" />
+        </div>
+        <div class="mb-3">
+          <label class="form-label">Message</label>
+          <textarea class="form-control"></textarea>
+        </div>
+        <button type="submit" class="btn btn-primary">Submit</button>
       </form>
     </div>
+
+    <footer class="bg-dark text-white text-center p-3">
+      &copy; 2025 My Website. All rights reserved.
+    </footer>
   </body>
 </html>
