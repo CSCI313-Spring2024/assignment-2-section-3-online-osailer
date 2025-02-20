@@ -1,0 +1,98 @@
+body {
+    font-size: 20px;
+    margin-left: 10em;
+    margin-right: 10em;
+    font-family: 'Ubuntu', ital;
+}
+
+h1 {
+    color: coral;
+}
+
+#para1 {
+    color: firebrick;
+    background-color: beige;
+}
+
+#para2 {
+    color: darkorchid;
+    margin-top: 50px;
+}
+
+ul li {
+    font-style: italic;
+}
+
+.rock {
+    color: navy;
+}
+
+.hiphop {
+    color: darkgreen;
+}
+
+.pop {
+    color: darkred;
+}
+
+img {
+    width: 50%;
+    height: auto;
+    float: left;
+    border-radius: 2em;
+    margin-right: 3em;
+}
+
+div > p {
+    color: crimson;
+    font-style: italic;
+}
+
+.ubuntu-light {
+    font-family: "Ubuntu", serif;
+    font-weight: 300;
+    font-style: normal;
+  }
+  
+  .ubuntu-regular {
+    font-family: "Ubuntu", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .ubuntu-medium {
+    font-family: "Ubuntu", serif;
+    font-weight: 500;
+    font-style: normal;
+  }
+  
+  .ubuntu-bold {
+    font-family: "Ubuntu", serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+  
+  .ubuntu-light-italic {
+    font-family: "Ubuntu", serif;
+    font-weight: 300;
+    font-style: italic;
+  }
+  
+  .ubuntu-regular-italic {
+    font-family: "Ubuntu", serif;
+    font-weight: 400;
+    font-style: italic;
+  }
+  
+  .ubuntu-medium-italic {
+    font-family: "Ubuntu", serif;
+    font-weight: 500;
+    font-style: italic;
+  }
+  
+  .ubuntu-bold-italic {
+    font-family: "Ubuntu", serif;
+    font-weight: 700;
+    font-style: italic;
+  }
+  
